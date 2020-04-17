@@ -43,31 +43,71 @@ formatter.result({
   "status": "passed"
 });
 formatter.scenario({
-  "name": "Login as store manager and verify options are available",
+  "name": "Login as store manager and click on Create Calendar EventVerify that following message as a summary is displayed: “Summary: Weekly every 1 week on Monday, Friday”",
   "description": "",
   "keyword": "Scenario",
   "tags": [
     {
-      "name": "@Test1"
+      "name": "@Test12"
     }
   ]
 });
 formatter.step({
-  "name": "user hover on three dots",
+  "name": "user click on Create Calendar Event Button",
   "keyword": "Given "
 });
 formatter.match({
-  "location": "com.vytrack.step_definitions.Activities.CalendarStepDefinitions.user_hover_on_three_dots()"
+  "location": "com.vytrack.step_definitions.Activities.CalendarStepDefinitions.user_click_on_Create_Calendar_Event_Button()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "user verify view, edit and delete options are available",
+  "name": "user select Repeat checkbox",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "com.vytrack.step_definitions.Activities.CalendarStepDefinitions.user_select_Repeat_checkbox()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user select Weekly option as Repeat option",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "com.vytrack.step_definitions.Activities.CalendarStepDefinitions.user_verify_view_edit_and_delete_options_are_available()"
+  "location": "com.vytrack.step_definitions.Activities.CalendarStepDefinitions.user_select_Weekly_option_as_Repeat_option()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user select Monday and Friday options as a Repeat on Options",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "com.vytrack.step_definitions.Activities.CalendarStepDefinitions.user_select_Monday_and_Friday_options_as_a_Repeat_on_Options()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user verify that Monday and Friday options are selected",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "com.vytrack.step_definitions.Activities.CalendarStepDefinitions.user_verify_that_Monday_and_Friday_options_are_selected()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Verify that following message as a summary is displayed: Summary: Weekly every 1 week on Monday, Friday",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "com.vytrack.step_definitions.Activities.CalendarStepDefinitions.verify_that_following_message_as_a_summary_is_displayed_Summary_Weekly_every_week_on_Monday_Friday(java.lang.Integer)"
 });
 formatter.result({
   "status": "passed"

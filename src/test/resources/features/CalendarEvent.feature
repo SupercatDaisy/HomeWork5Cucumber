@@ -15,20 +15,20 @@ Feature: HomeWork5
   @Test2
   Scenario: Login as store manager and verify Title is displayed
     Given user click on Grid Options button
-    Then user deselect all options except Title
-    And user verify that Title column still displayed
+    When user deselect all options except Title
+    Then user verify that Title column still displayed
 
  @Test3
  Scenario: Login as store manager and verify that all Save Options are available
    Given user click on Create Calendar Event Button
-   Then user expand Save and Close menu
-   And user verify that all Save options are available
+   When user expand Save and Close menu
+   Then user verify that all Save options are available
 
  @Test4
   Scenario: Login as store manager and Click on Cancel then Verify All Calendar Events subtitle is displayed
   Given user click on Create Calendar Event Button
-  Then user click on Cancel button
-  And user verify that All Calendar Events page subtitle is displayed
+  When user click on Cancel button
+  Then user verify that All Calendar Events page subtitle is displayed
 
   @Test5
   Scenario: Login as store manager and create Calendar Event then verify difference between end and start time
@@ -38,31 +38,31 @@ Feature: HomeWork5
   @Test6
   Scenario: Login as store manager and click on Create Calendar then Select 9:00 PM and verify end time is 10:00 PM
     Given user click on Create Calendar Event Button
-    Then user select nine pm as start time
-    And user verify that end time is equals to ten pm
+    When user select nine pm as start time
+    Then user verify that end time is equals to ten pm
 
   @Test7
   Scenario: Login as store manager and click on Create Calendar Event Verify start and end date input are displayed
     Given user click on Create Calendar Event Button
-    Then user select All-Day Event checkbox
-    And user verify that All-Day Event checkbox is selected
-    Then user verify that start and end time input boxes are not displayed
+    When user select All-Day Event checkbox
+    Then user verify that All-Day Event checkbox is selected
+    And user verify that start and end time input boxes are not displayed
     And user verify that start and end date input boxes are displayed
 
   @Test8
   Scenario: Login as store manager and click on Create Calendar Event Verify Options available in Repeat
     Given user click on Create Calendar Event Button
-    Then user select Repeat checkbox
-    And user verify that Repeat checkbox is selected
+    When user select Repeat checkbox
+    Then user verify that Repeat checkbox is selected
     And user verify that Daily is selected by default and Options are available in dropdown
 
   @Test9
   Scenario:Login as store manager and click on Create Calendar Event Verify that following message as a summary is displayed: “Summary: Daily every 1 day”
     Given user click on Create Calendar Event Button
-    Then user select Repeat checkbox
-    And user verify that Repeat Every radio button is selected
+    When user select Repeat checkbox
+    Then user verify that Repeat Every radio button is selected
     And user verify that Never button is selected as an Ends Option
-    Then Verify that following message as a summary is displayed: Summary: Daily every 1 day
+    And Verify that following message as a summary is displayed: Summary: Daily every 1 day
 
 
   @Test10
@@ -75,15 +75,15 @@ Feature: HomeWork5
 @Test11
 Scenario:  Login as store manager and click on Create Calendar Event Verify that following message as a summary is displayed: Summary: Daily every 1 day, end by Nov 18, 2021
   Given user click on Create Calendar Event Button
-  Then user select Repeat checkbox
-  And user select By Nov 18, 2021 as an Ends option
-  Then Verify that following message as a summary is displayed: “Summary: Daily every 1 day, end by Nov 18, 2021”
+  When user select Repeat checkbox
+  Then user select By Nov 18, 2021 as an Ends option
+  And Verify that following message as a summary is displayed: “Summary: Daily every 1 day, end by Nov 18, 2021”
 
   @Test12
   Scenario:  Login as store manager and click on Create Calendar EventVerify that following message as a summary is displayed: “Summary: Weekly every 1 week on Monday, Friday”
     Given user click on Create Calendar Event Button
-    Then user select Repeat checkbox
-    And user select Weekly option as Repeat option
-    Then user select Monday and Friday options as a Repeat on Options
+    When user select Repeat checkbox
+    Then user select Weekly option as Repeat option
+    And user select Monday and Friday options as a Repeat on Options
     And user verify that Monday and Friday options are selected
-    Then Verify that following message as a summary is displayed: Summary: Weekly every 1 week on Monday, Friday
+    And Verify that following message as a summary is displayed: Summary: Weekly every 1 week on Monday, Friday
