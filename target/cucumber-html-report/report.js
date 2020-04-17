@@ -1,64 +1,13 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/features/Login.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/features/CalendarEvent.feature");
 formatter.feature({
-  "name": "Login",
-  "description": "  As a user, I want to be able to login with username and password.",
+  "name": "HomeWork5",
+  "description": "  I want to login as a store manager and do my test cases",
   "keyword": "Feature"
 });
-formatter.scenario({
-  "name": "Login as Sales Manager and verify Title is Dashboard",
+formatter.background({
+  "name": "",
   "description": "",
-  "keyword": "Scenario",
-  "tags": [
-    {
-      "name": "@sales_manager"
-    }
-  ]
-});
-formatter.before({
-  "status": "passed"
-});
-formatter.step({
-  "name": "user is on the landing page",
-  "keyword": "Given "
-});
-formatter.match({
-  "location": "com.vytrack.step_definitions.Login.LoginStepDefinitions.user_is_on_the_landing_page()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "user logged in as a sales manager",
-  "keyword": "When "
-});
-formatter.match({
-  "location": "com.vytrack.step_definitions.Login.LoginStepDefinitions.user_logged_in_as_a_sales_manager()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "user should verify title is a dashboard",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "com.vytrack.step_definitions.Login.LoginStepDefinitions.user_should_verify_title_is_a_dashboard()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.after({
-  "status": "passed"
-});
-formatter.scenario({
-  "name": "Login as Store Manager and verify Title is Dashboard",
-  "description": "",
-  "keyword": "Scenario",
-  "tags": [
-    {
-      "name": "@store_manager"
-    }
-  ]
+  "keyword": "Background"
 });
 formatter.before({
   "status": "passed"
@@ -84,57 +33,41 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "user should verify title is a dashboard",
-  "keyword": "Then "
+  "name": "user navigate to Activities then Calendar Events",
+  "keyword": "And "
 });
 formatter.match({
-  "location": "com.vytrack.step_definitions.Login.LoginStepDefinitions.user_should_verify_title_is_a_dashboard()"
+  "location": "com.vytrack.step_definitions.Activities.CalendarStepDefinitions.user_navigate_to_Activities_then_Calendar_Events()"
 });
 formatter.result({
   "status": "passed"
 });
-formatter.after({
-  "status": "passed"
-});
 formatter.scenario({
-  "name": "Login as driver and verify Title is Dashboard",
+  "name": "Login as store manager and verify options are available",
   "description": "",
   "keyword": "Scenario",
   "tags": [
     {
-      "name": "@driver"
+      "name": "@Test1"
     }
   ]
 });
-formatter.before({
-  "status": "passed"
-});
 formatter.step({
-  "name": "user is on the landing page",
+  "name": "user hover on three dots",
   "keyword": "Given "
 });
 formatter.match({
-  "location": "com.vytrack.step_definitions.Login.LoginStepDefinitions.user_is_on_the_landing_page()"
+  "location": "com.vytrack.step_definitions.Activities.CalendarStepDefinitions.user_hover_on_three_dots()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "user logged in as a driver",
-  "keyword": "When "
-});
-formatter.match({
-  "location": "com.vytrack.step_definitions.Login.LoginStepDefinitions.user_logged_in_as_a_driver()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "user should verify title is a dashboard",
+  "name": "user verify view, edit and delete options are available",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "com.vytrack.step_definitions.Login.LoginStepDefinitions.user_should_verify_title_is_a_dashboard()"
+  "location": "com.vytrack.step_definitions.Activities.CalendarStepDefinitions.user_verify_view_edit_and_delete_options_are_available()"
 });
 formatter.result({
   "status": "passed"
