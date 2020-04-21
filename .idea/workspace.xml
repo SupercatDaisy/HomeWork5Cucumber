@@ -3,8 +3,20 @@
   <component name="ChangeListManager">
     <list default="true" id="8647b0b6-ce6c-492a-9a96-fb28da787d8a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/vytrack/pages/Activities/CalendarEventPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/pages/Activities/CalendarEventPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/vytrack/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/pages/LoginPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/vytrack/runners/CucumberRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/runners/CucumberRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/vytrack/step_definitions/Activities/CalendarStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/step_definitions/Activities/CalendarStepDefinitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/vytrack/step_definitions/Login/LoginStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/step_definitions/Login/LoginStepDefinitions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/CalendarEvent.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/CalendarEvent.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Login.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-report/formatter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-report/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-report/jquery-3.4.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-report/report.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-report/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vytrack/runners/CucumberRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/vytrack/runners/CucumberRunner.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,21 +117,21 @@
       <screen x="-1080" y="0" width="1080" height="1880" />
     </state>
     <state x="-948" y="600" key="#Project_Structure/0.0.1920.1040/1920.0.1920.1040/-1080.0.1080.1880@-1080.0.1080.1880" timestamp="1587050558445" />
-    <state width="1039" height="559" key="GridCell.Tab.0.bottom" timestamp="1587099265784">
+    <state width="1039" height="559" key="GridCell.Tab.0.bottom" timestamp="1587442202488">
       <screen x="-1080" y="0" width="1080" height="1880" />
     </state>
-    <state width="1039" height="559" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040/-1080.0.1080.1880@-1080.0.1080.1880" timestamp="1587099265784" />
-    <state width="1039" height="559" key="GridCell.Tab.0.center" timestamp="1587099265784">
+    <state width="1039" height="559" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040/-1080.0.1080.1880@-1080.0.1080.1880" timestamp="1587442202488" />
+    <state width="1039" height="559" key="GridCell.Tab.0.center" timestamp="1587442202488">
       <screen x="-1080" y="0" width="1080" height="1880" />
     </state>
-    <state width="1039" height="559" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040/-1080.0.1080.1880@-1080.0.1080.1880" timestamp="1587099265784" />
-    <state width="1039" height="559" key="GridCell.Tab.0.left" timestamp="1587099265784">
+    <state width="1039" height="559" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040/-1080.0.1080.1880@-1080.0.1080.1880" timestamp="1587442202488" />
+    <state width="1039" height="559" key="GridCell.Tab.0.left" timestamp="1587442202488">
       <screen x="-1080" y="0" width="1080" height="1880" />
     </state>
-    <state width="1039" height="559" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040/-1080.0.1080.1880@-1080.0.1080.1880" timestamp="1587099265784" />
-    <state width="1039" height="559" key="GridCell.Tab.0.right" timestamp="1587099265784">
+    <state width="1039" height="559" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040/-1080.0.1080.1880@-1080.0.1080.1880" timestamp="1587442202488" />
+    <state width="1039" height="559" key="GridCell.Tab.0.right" timestamp="1587442202488">
       <screen x="-1080" y="0" width="1080" height="1880" />
     </state>
-    <state width="1039" height="559" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040/-1080.0.1080.1880@-1080.0.1080.1880" timestamp="1587099265784" />
+    <state width="1039" height="559" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040/-1080.0.1080.1880@-1080.0.1080.1880" timestamp="1587442202488" />
   </component>
 </project>

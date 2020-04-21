@@ -18,22 +18,22 @@ Feature: HomeWork5
     When user deselect all options except Title
     Then user verify that Title column still displayed
 
- @Test3
- Scenario: Login as store manager and verify that all Save Options are available
-   Given user click on Create Calendar Event Button
-   When user expand Save and Close menu
-   Then user verify that all Save options are available
+  @Test3
+  Scenario: Login as store manager and verify that all Save Options are available
+    Given user click on Create Calendar Event Button
+    When user expand Save and Close menu
+    Then user verify that all Save options are available
 
- @Test4
+  @Test4
   Scenario: Login as store manager and Click on Cancel then Verify All Calendar Events subtitle is displayed
-  Given user click on Create Calendar Event Button
-  When user click on Cancel button
-  Then user verify that All Calendar Events page subtitle is displayed
+    Given user click on Create Calendar Event Button
+    When user click on Cancel button
+    Then user verify that All Calendar Events page subtitle is displayed
 
   @Test5
   Scenario: Login as store manager and create Calendar Event then verify difference between end and start time
-  Given user click on Create Calendar Event Button
-  Then user verify that difference between end and start time is one hour
+    Given user click on Create Calendar Event Button
+    Then user verify that difference between end and start time is one hour
 
   @Test6
   Scenario: Login as store manager and click on Create Calendar then Select 9:00 PM and verify end time is 10:00 PM
@@ -72,12 +72,12 @@ Feature: HomeWork5
     And user select After ten occurrences as an Ends option
     Then user verify that following message as a summary is displayed: Summary: Daily every 1 day, end after 10 occurrences
 
-@Test11
-Scenario:  Login as store manager and click on Create Calendar Event Verify that following message as a summary is displayed: Summary: Daily every 1 day, end by Nov 18, 2021
-  Given user click on Create Calendar Event Button
-  When user select Repeat checkbox
-  Then user select By Nov 18, 2021 as an Ends option
-  And Verify that following message as a summary is displayed: “Summary: Daily every 1 day, end by Nov 18, 2021”
+  @Test11
+  Scenario:  Login as store manager and click on Create Calendar Event Verify that following message as a summary is displayed: Summary: Daily every 1 day, end by Nov 18, 2021
+    Given user click on Create Calendar Event Button
+    When user select Repeat checkbox
+    Then user select By Nov 18, 2021 as an Ends option
+    And Verify that following message as a summary is displayed: “Summary: Daily every 1 day, end by Nov 18, 2021”
 
   @Test12
   Scenario:  Login as store manager and click on Create Calendar EventVerify that following message as a summary is displayed: “Summary: Weekly every 1 week on Monday, Friday”

@@ -32,6 +32,7 @@ public class CalendarStepDefinitions extends CalendarEventPage {
         actions.moveToElement(calendarEventPage.getThreeDots().get(random)).build().perform();
     }
 
+
     @Then("user verify view, edit and delete options are available")
     public void user_verify_view_edit_and_delete_options_are_available() {
         for (WebElement each : calendarEventPage.getThreedotMenu()) {

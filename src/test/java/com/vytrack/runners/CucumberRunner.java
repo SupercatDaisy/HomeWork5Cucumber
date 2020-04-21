@@ -17,8 +17,11 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/features",
         dryRun = false,
         strict = false,
-        tags = "@Test12",
-        plugin="html:target/cucumber-html-report"
+        tags = "@deneme",
+        plugin= {
+                "html:target/default-report",
+                "json:target/cucumber.json"
+        }
 )
     public class CucumberRunner {
 

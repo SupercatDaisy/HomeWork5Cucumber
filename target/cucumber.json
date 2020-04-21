@@ -1,0 +1,316 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 7,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 801542300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user is on the landing page",
+            "match": {
+              "location": "com.vytrack.step_definitions.Login.LoginStepDefinitions.user_is_on_the_landing_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-04-21T03:34:24.734Z",
+        "before": [
+          {
+            "result": {
+              "duration": 9961630200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.vytrack.step_definitions.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Login as Sales Manager",
+        "description": "",
+        "id": "login;login-as-\u003cusername\u003e;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 670715800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.vytrack.step_definitions.Hooks.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2110579000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user logged in as a \"Sales Manager\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sales Manager\"",
+                  "offset": 20
+                }
+              ],
+              "location": "com.vytrack.step_definitions.Login.LoginStepDefinitions.user_logged_in_as_a(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8976100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user verify \"Dashboard\" is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Dashboard\"",
+                  "offset": 12
+                }
+              ],
+              "location": "com.vytrack.step_definitions.Login.LoginStepDefinitions.user_verify_is_displayed(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          },
+          {
+            "name": "@deneme"
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6382132400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user is on the landing page",
+            "match": {
+              "location": "com.vytrack.step_definitions.Login.LoginStepDefinitions.user_is_on_the_landing_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-04-21T03:34:38.360Z",
+        "before": [
+          {
+            "result": {
+              "duration": 9240858100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.vytrack.step_definitions.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Login as Store Manager",
+        "description": "",
+        "id": "login;login-as-\u003cusername\u003e;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 684701600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.vytrack.step_definitions.Hooks.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2222687700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user logged in as a \"Store Manager\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Store Manager\"",
+                  "offset": 20
+                }
+              ],
+              "location": "com.vytrack.step_definitions.Login.LoginStepDefinitions.user_logged_in_as_a(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6981400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user verify \"Dashboard\" is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Dashboard\"",
+                  "offset": 12
+                }
+              ],
+              "location": "com.vytrack.step_definitions.Login.LoginStepDefinitions.user_verify_is_displayed(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          },
+          {
+            "name": "@deneme"
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 851483300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user is on the landing page",
+            "match": {
+              "location": "com.vytrack.step_definitions.Login.LoginStepDefinitions.user_is_on_the_landing_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-04-21T03:34:56.901Z",
+        "before": [
+          {
+            "result": {
+              "duration": 9225088900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.vytrack.step_definitions.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Login as Driver",
+        "description": "",
+        "id": "login;login-as-\u003cusername\u003e;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 689465400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.vytrack.step_definitions.Hooks.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2117216100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user logged in as a \"Driver\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Driver\"",
+                  "offset": 20
+                }
+              ],
+              "location": "com.vytrack.step_definitions.Login.LoginStepDefinitions.user_logged_in_as_a(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 18950200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user verify \"Dashboard\" is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Dashboard\"",
+                  "offset": 12
+                }
+              ],
+              "location": "com.vytrack.step_definitions.Login.LoginStepDefinitions.user_verify_is_displayed(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          },
+          {
+            "name": "@deneme"
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "  As a user, I want to be able to login with username and password.",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Login.feature",
+    "tags": [
+      {
+        "name": "@Login",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

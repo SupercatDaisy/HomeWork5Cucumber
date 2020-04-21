@@ -155,7 +155,6 @@ public class CalendarEventPage extends PageBase {
         return BrowserUtilities.getTextFromWebElements(allOptions.getOptions());
     }
 
-
     public List<WebElement> getThreedotMenu() {
         return threedotMenu;
     }

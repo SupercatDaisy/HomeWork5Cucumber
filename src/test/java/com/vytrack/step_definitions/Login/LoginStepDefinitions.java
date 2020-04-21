@@ -12,35 +12,28 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class LoginStepDefinitions {
 
-    LoginPage loginPage=new LoginPage();
-    WebDriverWait wait= new WebDriverWait(Driver.getDriver(),10);
+    LoginPage loginPage = new LoginPage();
+    WebDriverWait wait = new WebDriverWait(Driver.getDriver(), 10);
 
     @Given("user is on the landing page")
     public void user_is_on_the_landing_page() {
-       String URL = ConfigurationReader.getProperty("qa3");
-       Driver.getDriver().get(URL);
+        String URL = ConfigurationReader.getProperty("qa3");
+        Driver.getDriver().get(URL);
     }
 
-    @When("user logged in as a sales manager")
-    public void user_logged_in_as_a_sales_manager() {
-        loginPage.login(ConfigurationReader.getProperty("sales_manager"),ConfigurationReader.getProperty("password"),false);
 
+    @Given("user logged in as a {string}")
+    public void user_logged_in_as_a(String username) {
+        loginPage.login(username);
     }
 
-    @Then("user should verify title is a dashboard")
-    public void user_should_verify_title_is_a_dashboard() {
-        BrowserUtilities.waitForPageToLoad(10);
-        Assert.assertEquals(Driver.getDriver().getTitle(),"Dashboard");
-    }
+    @Then("user verify {string} is displayed")
+    public void user_verify_is_displayed(String title) {
 
-    @When("user logged in as a store manager")
-    public void user_logged_in_as_a_store_manager() {
-        loginPage.login(ConfigurationReader.getProperty("store_manager"),ConfigurationReader.getProperty("password"),false);
-    }
+        Assert.assertEquals(title, Driver.getDriver().getTitle());
 
-    @When("user logged in as a driver")
-    public void user_logged_in_as_a_driver() {
-        loginPage.login(ConfigurationReader.getProperty("driver"),ConfigurationReader.getProperty("password"),false);
     }
 
 }
+
+

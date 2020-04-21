@@ -66,6 +66,23 @@ public class LoginPage extends PageBase {
   }
 
 
+  public void login(String username){
+      switch (username) {
+          case "Sales Manager":
+              login(ConfigurationReader.getProperty("sales_manager"), ConfigurationReader.getProperty("password"), false);
+              break;
+          case "Store Manager":
+              login(ConfigurationReader.getProperty("store_manager"), ConfigurationReader.getProperty("password"), false);
+              break;
+          case "Driver":
+              login(ConfigurationReader.getProperty("driver"), ConfigurationReader.getProperty("password"), false);
+              break;
+      }
+
+
+  }
+
+
   }
 
 
